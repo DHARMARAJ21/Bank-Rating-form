@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+  }
+  .a{
+    margin-left: 300px;
+    color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #94bff8;
+    background-image: linear-gradient(45deg, #85ceff 0%, #deddbf 100%);
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+ 
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  td:first-child {
+    width: 30%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="date"] {
+    padding: 10px 5px;
+  }
+
+  textarea {
+    height: 100px;
+  }
